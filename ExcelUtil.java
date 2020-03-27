@@ -29,8 +29,10 @@ public class ExcelUtil {
         sheet = workbook.getSheet(sheetName);
     }
 	
-    public void getSheet(int sheetNumber) {
-        sheet = workbook.getSheet(sheetNumber);
+	
+    //Updated by SeleniumUser508
+    public void getSheet(int sheetId) {
+        sheet = workbook.getSheet(sheetId);
     }
     
     public int getRowCount() {
